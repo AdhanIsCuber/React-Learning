@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Content from './components/Content';
+import Clock from './components/Clock';
 
 const activities = [
   {
@@ -34,6 +35,7 @@ class App extends Component {
         <div className="panel">
           <Header title="Home"/>
           <Content activities={activities} />
+          <Clock/>
         </div>
       </div>
     );
